@@ -1,3 +1,4 @@
+package cpf;
 
 public class Verifica {
 
@@ -29,7 +30,7 @@ public class Verifica {
 	
 	public static void convertNumberFromString(String num) {
 		
-		numString = num.replace(".","" ).replace("-", "").replace("/", "").replaceAll(" ", "");
+		numString = num.replace(".","" ).replace("-", "").replace("/", "").replace("_", "").replace("+", "").replaceAll(" ", "");
 				
 		int[] array = new int[11];
 		String character;
