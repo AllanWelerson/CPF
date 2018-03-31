@@ -15,7 +15,7 @@
 * Função boolean verificaCPF()
 * EX: 
 > if(Verifica.verificaCPF("123.123.123-12")){
-    System.out.println("CPF ok");
-}else{
-    System.out.println("CPF incorreto");
-}
+>    System.out.println("CPF ok");
+>}else{
+>    System.out.println("CPF incorreto");
+>}
