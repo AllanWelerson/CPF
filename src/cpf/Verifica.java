@@ -7,10 +7,7 @@ public class Verifica {
 		
 	public static boolean verificaCPF(String num) {
 		
-		convertNumberFromString(num);
-		
-		System.out.println(number[2]);
-		
+		convertNumberFromString(num);	
 		return firstNumber() && secondtNumber();
 	}
 		
